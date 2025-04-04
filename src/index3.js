@@ -167,8 +167,8 @@ contact form
   </video>
        </div>
        <div  onClick={Run} className="first-section__line"></div>
- <img src={"./web-port-img/images__2_-removebg-preview.png"} alt="" className="first-section__img" />
- <img src={"./web-port-img/images__6_-removebg-preview"} alt="" className="first-section__img1" />
+ <img src={"./web-port-img/images__6_-removebg-preview.png"} alt="" className="first-section__img" />
+ <img src={"./web-port-img/images__2_-removebg-preview.png"} alt="" className="first-section__img1" />
  <img src={"./web-port-img/icons8-javascript-480.png"} alt="" className="first-section__img2" />
  <img src={"./web-port-img/icons8-react-480.png"} alt="" className="first-section__img3" />
  <img src={"./web-port-img/icons8-node-js-240.png"} alt="" className="first-section__img4" />
