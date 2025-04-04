@@ -846,10 +846,11 @@ body {
 }
 
 .third-section {
-  height: 85vh;
+  height: 90vh;
   width: 100vw;
   font-size: 1.6rem;
   background: black;
+  margin-bottom: 1rem;
   color: white;
 }
 
