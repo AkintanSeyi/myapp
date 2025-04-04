@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://akintanseyi.github.io/myapp/",
   "dependencies": {
     "@fontsource/dancing-script": "^4.5.7",
     "@testing-library/jest-dom": "^5.16.2",
