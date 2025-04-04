@@ -5,7 +5,7 @@ const people3 = [
     "./web-port-img/17.png",
   name: 'kwik.delivery',
   git: 'https://github.com/AkintanSeyi/kwikapp',
-  web: 'https://patriciason-kwikapp.vercel.app/',
+  web: 'https://kwikclone.vercel.app/',
   p:  'kwik.delivery is one of the biggest delivery app in africa , they deliver different kind of products to clients from all over africa '
 
   },
@@ -15,7 +15,7 @@ const people3 = [
     "./web-port-img/18.png",
   name: 'risvest App',
   git: 'https://github.com/AkintanSeyi/risevest',
-  web: 'https://patriciason-risevest.vercel.app/',
+  web: 'https://risecloneapp.vercel.app/',
   p:  'risvest App is used for saving money in different currencies for people all over the world , one of the biggest saving app in africa'
 
   },
