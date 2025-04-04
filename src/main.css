@@ -56,7 +56,7 @@ body {
   left: 0;
   color: white;
   text-transform: capitalize;
-  background-image: url("../public/web-port-img/16.jpg");
+  background-image: url("../src/web-port-img/16.jpg");
   background-size: cover;
   -webkit-transition: all .2s;
   transition: all .2s;
@@ -114,7 +114,7 @@ body {
   width: 100vw;
   height: 100vh;
   position: relative;
-  background-image: url("../public/web-port-img/15.jpg");
+  background-image: url("../src//web-port-img/15.jpg");
   background-size: cover;
   font-size: 1.6rem;
   background: black;
@@ -710,8 +710,8 @@ body {
   height: 100%;
   color: white;
   text-align: center;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.354)), to(rgba(0, 0, 0, 0.5))), url("../public/web-port-img/warrior-kneeling-wallpaper-2560x2048_33.jpg");
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.354), rgba(0, 0, 0, 0.5)), url("../public/web-port-img/warrior-kneeling-wallpaper-2560x2048_33.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.354)), to(rgba(0, 0, 0, 0.5))), url("../src/web-port-img/warrior-kneeling-wallpaper-2560x2048_33.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.354), rgba(0, 0, 0, 0.5)), url("../src/web-port-img/warrior-kneeling-wallpaper-2560x2048_33.jpg");
   background-position: center;
   background-size: cover;
 }

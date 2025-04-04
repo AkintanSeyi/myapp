@@ -10,6 +10,8 @@ import people3 from "./data2";
 import "aos/dist/aos.css";
 import "@fontsource/dancing-script";
 
+
+
 const Index3 = () => {
 
   const A = useRef(null)
@@ -167,11 +169,11 @@ contact form
   </video>
        </div>
        <div  onClick={Run} className="first-section__line"></div>
- <img src={"./web-port-img/images__6_-removebg-preview.png"} alt="" className="first-section__img" />
- <img src={"./web-port-img/images__2_-removebg-preview.png"} alt="" className="first-section__img1" />
- <img src={"./web-port-img/icons8-javascript-480.png"} alt="" className="first-section__img2" />
- <img src={"./web-port-img/icons8-react-480.png"} alt="" className="first-section__img3" />
- <img src={"./web-port-img/icons8-node-js-240.png"} alt="" className="first-section__img4" />
+ <img src={require("../src/web-port-img/images__6_-removebg-preview.png")} alt="img" className="first-section__img" />
+ <img src={require("../src/web-port-img/images__2_-removebg-preview.png")} alt="img" className="first-section__img1" />
+ <img src={require("../src/web-port-img/icons8-javascript-480.png")} alt="" className="first-section__img2" />
+ <img src={require("../src/web-port-img/icons8-react-480.png")} alt="" className="first-section__img3" />
+ <img src={require("../src/web-port-img/icons8-node-js-240.png")} alt="" className="first-section__img4" />
 <div  className="first-section__main">
 
   <h2 data-aos="zoom-in" className="first-section__h2">patricia-son</h2>
@@ -383,9 +385,10 @@ about me
            <div data-aos="fade-right"  className="fourth-section__1">
            <section className="fourth-section__1-holder">
 
-             <img src={image} alt="" className="fourth-section__img" />
+             <img src={require(`../src/web-port-img/`+image)} alt="img" className="fourth-section__img" />
+            
            <button className="fourth-section__1-p">
-<a href={web} className="fourth-section__link2">visit web</a>
+<a href={web} className="fourth-section__link2">visit web </a>
            </button>
 </section>
            </div>

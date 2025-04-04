@@ -1,8 +1,10 @@
+
 const people3 = [
   {
     id: 10,
     image:
-    "./web-port-img/17.png",
+    "17.png"
+,
   name: 'kwik.delivery',
   git: 'https://github.com/AkintanSeyi/kwikapp',
   web: 'https://kwikclone.vercel.app/',
@@ -12,7 +14,7 @@ const people3 = [
   {
     id: 11,
     image:
-    "./web-port-img/18.png",
+    "18.png",
   name: 'risvest App',
   git: 'https://github.com/AkintanSeyi/risevest',
   web: 'https://risecloneapp.vercel.app/',
@@ -22,7 +24,7 @@ const people3 = [
   {
     id: 2,
     image:
-    "./web-port-img/5.png",
+    "5.png",
   name: 'slick-funiture',
   git: 'https://github.com/Akingz2000/funiture',
   web: 'https://akingz2000.github.io/funiture/',
@@ -32,7 +34,7 @@ const people3 = [
   {
     id: 9,
     image:
-    "./web-port-img/11.png",
+    "11.png",
   name: 'fibre',
   git: 'https://github.com/Akingz2000/fibre-',
   web: 'https://akingz2000.github.io/fibre-/',
@@ -43,7 +45,7 @@ const people3 = [
     {
    id: 1,
         image:
-          "./web-port-img/7.png",
+          "7.png",
         name: 'as-cars',
         git: 'https://github.com/Akingz2000/car',
         web: 'https://akingz2000.github.io/car/',
@@ -56,7 +58,7 @@ const people3 = [
       {
         id: 3,
         image:
-        "./web-port-img/4.png",
+        "4.png",
       name: 'mother-earth',
       git: 'https://github.com/Akingz2000/mother-earth',
       web: 'https://akingz2000.github.io/mother-earth/',
@@ -66,7 +68,7 @@ const people3 = [
       {
         id: 5,
         image:
-        "./web-port-img/6.png",
+        "6.png",
       name: 'housing in lagos',
       git: 'https://github.com/Akingz2000/housing-website',
       web: 'https://akingz2000.github.io/housing-website/',
@@ -77,7 +79,7 @@ const people3 = [
       {
         id: 6,
         image:
-        "./web-port-img/8.png",
+        "8.png",
       name: 'nft-store',
       git: 'https://github.com/Akingz2000/nft',
       web: 'https://akingz2000.github.io/nft/',
@@ -90,7 +92,7 @@ const people3 = [
         {
           id: 7,
           image:
-          "./web-port-img/9.png",
+          "9.png",
         name: 'freash-menu',
         git: 'https://github.com/Akingz2000/freshmenu',
         web: 'https://akingz2000.github.io/freshmenu/',
@@ -101,7 +103,7 @@ const people3 = [
       {
         id: 4,
         image:
-        "./web-port-img/1.png",
+        "1.png",
       name: 'l&d lotions',
       git: 'https://github.com/Akingz2000/cream',
       web: 'https://akingz2000.github.io/cream/',
