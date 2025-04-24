@@ -298,7 +298,7 @@ contact form
                   </li>
                  
                     
-                  <li data-aos="fade-up"  className="second-section__li">
+                  <li data-aos="fade-up"  style={{marginBottom : "2rem"}} className="second-section__li">
                   {i}
                   </li>
 
