@@ -296,16 +296,8 @@ contact form
                   <li data-aos="fade-right"  className="second-section__li">
                      {x}
                   </li>
-                  <li data-aos="fade-up"  className="second-section__li">
-                  {e}
-                    </li>
-                    <li data-aos="fade-left"  className="second-section__li">
-                   {f}
-                    </li>
-
-                    <li data-aos="fade-right"  className="second-section__li">
-                    {n}
-                    </li>
+                 
+                    
                   <li data-aos="fade-up"  className="second-section__li">
                   {i}
                   </li>
