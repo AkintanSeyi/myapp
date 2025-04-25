@@ -100,16 +100,6 @@ const people3 = [
      
      
       },
-      {
-        id: 4,
-        image:
-        "1.png",
-      name: 'l&d lotions',
-      git: 'https://github.com/Akingz2000/cream',
-      web: 'https://akingz2000.github.io/cream/',
-      p:  'this is a website about the leading cosmetic comapny in ipaye region lagos state, sold over 100,000 product and nominated for the CSA award 2021'
-   
-      },
       
         
    
