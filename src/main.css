@@ -471,9 +471,10 @@ body {
 
 .second-section {
   width: 100vw;
-  height: 130vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   font-size: 1.6rem;
-  padding-bottom: 10px;
 }
 
 @media only screen and (max-width: 62.5em) {
@@ -769,6 +770,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   justify-items: center;
+  padding-bottom: 50px;
 }
 
 @media only screen and (max-width: 37.5em) {

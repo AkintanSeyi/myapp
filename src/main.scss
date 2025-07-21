@@ -512,9 +512,10 @@ position: absolute;
 
     .second-section {
 width: 100vw;
-height: 130vh;
+height: fit-content;
 font-size: 1.6rem;
-padding-bottom: 10px;
+//padding-bottom: 10px;
+
 
 //animation: set2 10s linear 1 ;
 
@@ -784,6 +785,8 @@ color: white;
     grid-row-gap: 4rem;
     align-items: center;
     justify-items:center ;
+    padding-bottom: 50px;
+
 
     @media only screen and (max-width: 37.5em) {
       grid-template-columns: 1fr 1fr;
