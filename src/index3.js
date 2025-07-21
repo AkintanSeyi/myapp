@@ -30,6 +30,7 @@ const Index3 = () => {
   const G = useRef(null);
   const H = useRef(null);
   const J = useRef(null);
+   const JJ = useRef(null);
   const [a, setA] = useState(
     "./web-port-img/21180475_tiger-running-to-camera_by_3danimals_preview.mp4"
   );
@@ -95,6 +96,11 @@ const Index3 = () => {
     G.current.scrollIntoView({ behavior: "smooth" });
   };
 
+    const executeScroll66 = () => {
+    J.current.style.display = "none";
+    JJ.current.scrollIntoView({ behavior: "smooth" });
+  };
+
   const executeScroll55 = () => {
     J.current.style.display = "none";
     H.current.scrollIntoView({ behavior: "smooth" });
@@ -118,6 +124,9 @@ const Index3 = () => {
               </li>
               <li onClick={executeScroll33} className="slider__li">
                 about me
+              </li>
+                 <li onClick={executeScroll66} className="slider__li">
+                experience
               </li>
               <li onClick={executeScroll44} className="slider__li">
                 portifolio
@@ -313,7 +322,7 @@ const Index3 = () => {
           </section>
         </div>
 
-        <section className="Amend">
+        <section  ref={JJ} className="Amend">
           
             <div data-aos="fade-down" className="third-section__1">
               <h2 className="third-section__h2">experience</h2>

@@ -70,7 +70,7 @@ body {
 .slider__ul {
   list-style: none;
   position: absolute;
-  font-size: 4rem;
+  font-size: 3rem;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -93,7 +93,7 @@ body {
 
 @media only screen and (max-width: 31.25em) {
   .slider__ul {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     width: 100vw;
     padding-left: 1rem;
   }
@@ -101,7 +101,7 @@ body {
 
 .slider__li {
   list-style: none;
-  margin-right: 2rem;
+  margin-right: 1.5rem;
   cursor: pointer;
 }
 
