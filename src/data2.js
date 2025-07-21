@@ -1,6 +1,29 @@
 
 const people3 = [
   {
+    id: 21,
+    image:
+    "20.jpg"
+,
+  name: 'cleva',
+  git: 'https://github.com/AkintanSeyi/kwikapp',
+  web: 'https://getcleva.com/',
+p:  "Cleva is a fintech app that helps Africans open U.S. dollar accounts, receive international payments, convert USD to local currency, and use virtual USD cards. It's fast, secure, and built to support freelancers and businesses with global payments."
+
+  },
+  {
+    id: 22,
+    image:
+    "21.jpg"
+,
+  name: 'chowdeck',
+  git: 'https://github.com/AkintanSeyi/kwikapp',
+  web: 'https://chowdeck.com/',
+p: "Chowdeck is a fast and reliable delivery platform in Nigeria that connects users with restaurants, supermarkets, and pharmacies. It offers on-demand service with delivery times typically under 30 minutes. Operating in major cities and expanding across Africa, Chowdeck is becoming a go-to app for everyday essentials." },
+ 
+
+
+{
     id: 10,
     image:
     "17.png"
@@ -8,9 +31,17 @@ const people3 = [
   name: 'kwik.delivery',
   git: 'https://github.com/AkintanSeyi/kwikapp',
   web: 'https://kwikclone.vercel.app/',
-  p:  'kwik.delivery is one of the biggest delivery app in africa , they deliver different kind of products to clients from all over africa '
-
+  p:  "Kwik Delivery is a logistics platform that offers fast, on-demand delivery services in Nigerian cities. It connects users to riders and drivers for parcel, food, and cargo deliveries, and supports businesses with tools like tracking, warehousing, and e-commerce integration."
   },
+  {
+    id: 22,
+    image:
+    "22.jpg"
+,
+  name: 'syoption',
+  git: 'https://github.com/AkintanSeyi/kwikapp',
+  web: 'https://synoption.com/',
+  p:  "SynOption is a Singapore-based fintech company offering advanced trading and risk management tools for FX and crypto options. Its suite includes an MAS-regulated trading platform (Optimus), pricing engines, portfolio risk tools, and crypto options analytics. SynOption serves institutional clients and has earned industry recognition for its execution and trading solutions." },
   {
     id: 11,
     image:
@@ -89,18 +120,7 @@ const people3 = [
     },
       
        
-        {
-          id: 7,
-          image:
-          "9.png",
-        name: 'freash-menu',
-        git: 'https://github.com/akintanseyi/freshmenu',
-        web: 'https://akintanseyi.github.io/freshmenu/',
-        p:  'this is a new india resturant which is making waves right now, have over 20 stores nationwide and make amazing meals'
-     
-     
-      },
-      
+  
         
    
 ]
