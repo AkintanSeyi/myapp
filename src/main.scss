@@ -873,19 +873,19 @@ color: white;
     /////////////////////////////////////////////////////////////////////////
     ////////////////////////// third-section
     .third-section {
-      height: 90vh;
+      height: fit-content;
       width: 100vw;
       font-size: 1.6rem;
 background: black;
-padding-bottom: 1rem;
+padding-bottom: 1.5rem;
 color: white;
 
 @media only screen and (max-width: 62.5em) {
-  height: 75vh;
+  height: fit-content;
       }
 
       @media only screen and (max-width: 37.5em) {
-        height: 65vh;
+        height: fit-content;
     }
     @media only screen and (max-width: 31.25em) {
       height: fit-content;
