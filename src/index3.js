@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { BsFillBagCheckFill, BsFillCreditCardFill } from "react-icons/bs";
 import { AiOutlineArrowUp, AiOutlineSchedule } from "react-icons/ai";
+import people4 from "./data3";
 import {
   FaTwitterSquare,
   FaInstagramSquare,
@@ -277,29 +278,28 @@ const Index3 = () => {
 
             <div data-aos="zoom-in" className="third-section__div">
               <p ref={D} className="third-section__p">
-                My name is Akintan Seyi — a passionate and versatile Full Stack Web
-                Developer with 4 years of experience building high-quality,
+                My name is Akintan Seyi — a passionate and versatile Full Stack
+                Web Developer with 4 years of experience building high-quality,
                 user-focused web applications from the ground up. I specialize
                 in both frontend and backend development, with strong command of
-                technologies like React.js, Vue.js, Node.js,
-                Express.js, Django, REST APIs and the various CSS frameworks. Over the years, I’ve
+                technologies like React.js, Vue.js, Node.js, Express.js, Django,
+                REST APIs and the various CSS frameworks. Over the years, I’ve
                 worked with several fast-growing and innovative companies
-                including Cleva, Chowdeck, Ultainfinity, and
-                Synoption. At each of these places, I contributed to
-                real-world products — creating smooth, responsive user
-                interfaces, developing secure backend systems, integrating
-                third-party services, and deploying scalable, production-ready
-                applications. I hold a B.Sc. in Computer Science from Obafemi
-                Awolowo University (OAU) with a GPA of 3.80/5.00, where I
-                gained a strong foundation in software engineering principles,
-                algorithms, databases, and system design. My education, combined
-                with hands-on experience, enables me to confidently manage full
-                project lifecycles — from planning and prototyping to
-                development, testing, and deployment. I’m always eager to learn,
-                improve, and solve real problems with clean and efficient code.
-                I thrive in collaborative environments, communicate well with
-                teams, and enjoy building meaningful digital experiences that
-                make an impact.
+                including Cleva, Chowdeck, Ultainfinity, and Synoption. At each
+                of these places, I contributed to real-world products — creating
+                smooth, responsive user interfaces, developing secure backend
+                systems, integrating third-party services, and deploying
+                scalable, production-ready applications. I hold a B.Sc. in
+                Computer Science from Obafemi Awolowo University (OAU) with a
+                GPA of 3.80/5.00, where I gained a strong foundation in software
+                engineering principles, algorithms, databases, and system
+                design. My education, combined with hands-on experience, enables
+                me to confidently manage full project lifecycles — from planning
+                and prototyping to development, testing, and deployment. I’m
+                always eager to learn, improve, and solve real problems with
+                clean and efficient code. I thrive in collaborative
+                environments, communicate well with teams, and enjoy building
+                meaningful digital experiences that make an impact.
               </p>
             </div>
 
@@ -312,6 +312,35 @@ const Index3 = () => {
             </button>
           </section>
         </div>
+
+        <section className="Amend">
+          
+            <div data-aos="fade-down" className="third-section__1">
+              <h2 className="third-section__h2">experience</h2>
+              <div className="third-section__line "></div>
+            </div>
+
+            <div  className="holder">
+              {people4.map((item, id) => {
+                return (
+               <div  className="blaq">
+                    <div className = "header-amend">
+                        
+                      <h1 className="headeramend-h1">{item.company}</h1>
+                      <div className = "linee"> </div> <h1  className="headeramend-h1">{item.job}</h1>
+                    </div>   
+                    <p className="headeramend-date"> {item.date}</p>
+                    <p  className="headeramend-date"> {item.location}</p>
+
+                    {item.field.map((items, id) => {
+                      return <p  className="headeramend-date">{id+1}:) {items}</p>;
+                    })}
+                  </div>
+                );
+              })}
+            </div>
+         
+        </section>
 
         <div ref={G} className="fourth-section">
           <section className="fourth-section__holder">
@@ -358,14 +387,18 @@ const Index3 = () => {
                             className="fourth-section__but1"
                           >
                             <nav>
-                              <a href={web}  target="_blank" className="fourth-section__link2">
+                              <a
+                                href={web}
+                                target="_blank"
+                                className="fourth-section__link2"
+                              >
                                 visit web
                               </a>
                             </nav>
                           </button>
 
                           <button
-                            style={{visibility : "hidden"}}
+                            style={{ visibility: "hidden" }}
                             data-aos="fade-up"
                             className="fourth-section__but2"
                           >
@@ -388,7 +421,7 @@ const Index3 = () => {
         <div ref={H} className="contact">
           <section className="contact__holder">
             <div className="contact__icon-hold">
-              <a className="contact__link2" href="https://twitter.com/akingz18">
+              <a  target="_blank" className="contact__link2" href="https://twitter.com/akingz18">
                 <FaTwitterSquare
                   data-aos="fade-right"
                   className="contact__icon"
@@ -396,7 +429,7 @@ const Index3 = () => {
                   {" "}
                 </FaTwitterSquare>{" "}
               </a>
-              <a className="contact__link2" href=" https://wa.me/08071434751  ">
+              <a  target="_blank" className="contact__link2" href=" https://wa.me/08071434751  ">
                 {" "}
                 <FaWhatsappSquare
                   data-aos="fade-left"
@@ -406,6 +439,7 @@ const Index3 = () => {
                 </FaWhatsappSquare>
               </a>
               <a
+              target="_blank"
                 className="contact__link2"
                 href=" https://www.linkedin.com/in/akintan-seyi-dumebi-17949a234/ "
               >
@@ -415,7 +449,7 @@ const Index3 = () => {
                 </FaLinkedin>
               </a>
 
-              <a className="contact__link2" href="https://twitter.com/akingz18">
+              <a className="contact__link2"  target="_blank" href="https://twitter.com/akingz18">
                 {" "}
                 <FaInstagramSquare
                   data-aos="fade-down"

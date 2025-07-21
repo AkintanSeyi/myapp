@@ -67,7 +67,7 @@ overflow-x: hidden;
      color: white;
 
      text-transform: capitalize;
-background-image: url('../public/web-port-img/16.jpg');
+background-image: url('../src/web-port-img/16.jpg');
 background-size: cover;
 transition:  all .2s;
 
@@ -143,7 +143,7 @@ cursor: pointer;
       height: 100vh;
       position: relative;
 
-    background-image: url('../public/web-port-img/15.jpg');
+    background-image: url('../src/web-port-img/15.jpg');
     background-size: cover;
 font-size: 1.6rem;
 background: black;
@@ -519,7 +519,7 @@ padding-bottom: 10px;
 //animation: set2 10s linear 1 ;
 
 @media only screen and (max-width: 62.5em) {
- height: 90vh;
+ height: 100vh;
      }
      @media only screen and (max-width: 31.25em) {
       height: fit-content;
@@ -723,8 +723,8 @@ border: .35rem solid    white;
         height: 100%;
         color: white;
         text-align: center;
-        background-image: linear-gradient(to right , rgba(0, 0, 0, 0.354), rgba(0, 0, 0, 0.500)) ,
-        url('../public/web-port-img/warrior-kneeling-wallpaper-2560x2048_33.jpg');
+       background-image: linear-gradient(to right , rgba(0, 0, 0, 0.354), rgba(0, 0, 0, 0.500)) ,
+        url('../src/web-port-img/warrior-kneeling-wallpaper-2560x2048_33.jpg');
         background-position: center;
         background-size: cover;
         @media only screen and (max-width: 62.5em) {
@@ -1521,3 +1521,64 @@ transition: all .5s;
 
 
     }
+
+
+    .Amend {
+      height: fit-content;
+      width: 100vw;
+      padding: 20px;
+      background-color: black;
+      color: white;
+      padding-left: 40px;
+        @media only screen and (max-width: 62.5em) {
+   padding-left: 20px;
+             }
+    }
+
+    .header-amend {
+      display: flex;
+      align-items: center;
+      //justify-content: center;
+    }
+
+    .linee {
+      width: 20px;
+      height: 3px;
+      background-color: #fff;
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+
+    .holder {
+      margin-top: 70px;
+      margin-bottom: 50px;
+      margin-right: 50px;
+        @media only screen and (max-width: 62.5em) {
+margin-right: 20px;
+             }
+
+    }
+
+    .headeramend-h1 {
+      font-size: 25px;
+      font-weight: bold;
+          text-transform: capitalize;
+             @media only screen and (max-width: 62.5em) {
+   font-size: 16px;
+             }
+
+
+    }
+
+   .headeramend-date{
+    font-size: 12px;
+    font-weight:  bold;
+    margin-top: 10px;
+    margin-left: 2px;
+    text-transform: capitalize;
+   }
+
+   .blaq {
+    margin-top: 50px;
+   
+   }
