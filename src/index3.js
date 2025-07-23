@@ -30,7 +30,7 @@ const Index3 = () => {
   const G = useRef(null);
   const H = useRef(null);
   const J = useRef(null);
-   const JJ = useRef(null);
+  const JJ = useRef(null);
   const [a, setA] = useState(
     "./web-port-img/21180475_tiger-running-to-camera_by_3danimals_preview.mp4"
   );
@@ -96,7 +96,7 @@ const Index3 = () => {
     G.current.scrollIntoView({ behavior: "smooth" });
   };
 
-    const executeScroll66 = () => {
+  const executeScroll66 = () => {
     J.current.style.display = "none";
     JJ.current.scrollIntoView({ behavior: "smooth" });
   };
@@ -125,7 +125,7 @@ const Index3 = () => {
               <li onClick={executeScroll33} className="slider__li">
                 about me
               </li>
-                 <li onClick={executeScroll66} className="slider__li">
+              <li onClick={executeScroll66} className="slider__li">
                 experience
               </li>
               <li onClick={executeScroll44} className="slider__li">
@@ -322,33 +322,35 @@ const Index3 = () => {
           </section>
         </div>
 
-        <section  ref={JJ} className="Amend">
-          
-            <div data-aos="fade-down" className="third-section__1">
-              <h2 className="third-section__h2">experience</h2>
-              <div className="third-section__line "></div>
-            </div>
+        <section ref={JJ} className="Amend">
+          <div data-aos="fade-down" className="third-section__1">
+            <h2 className="third-section__h2">experience</h2>
+            <div className="third-section__line "></div>
+          </div>
 
-            <div  className="holder">
-              {people4.map((item, id) => {
-                return (
-               <div  className="blaq">
-                    <div className = "header-amend">
-                        
-                      <h1 className="headeramend-h1">{item.company}</h1>
-                      <div className = "linee"> </div> <h1  className="headeramend-h1">{item.job}</h1>
-                    </div>   
-                    <p className="headeramend-date"> {item.date}</p>
-                    <p  className="headeramend-date"> {item.location}</p>
-
-                    {item.field.map((items, id) => {
-                      return <p  className="headeramend-date">{id+1}:) {items}</p>;
-                    })}
+          <div className="holder">
+            {people4.map((item, id) => {
+              return (
+                <div className="blaq">
+                  <div className="header-amend">
+                    <h1 className="headeramend-h1">{item.company}</h1>
+                    <div className="linee"> </div>{" "}
+                    <h1 className="headeramend-h1">{item.job}</h1>
                   </div>
-                );
-              })}
-            </div>
-         
+                  <p className="headeramend-date"> {item.date}</p>
+                  <p className="headeramend-date"> {item.location}</p>
+
+                  {item.field.map((items, id) => {
+                    return (
+                      <p className="headeramend-date">
+                        {id + 1}:) {items}
+                      </p>
+                    );
+                  })}
+                </div>
+              );
+            })}
+          </div>
         </section>
 
         <div ref={G} className="fourth-section">
@@ -430,7 +432,11 @@ const Index3 = () => {
         <div ref={H} className="contact">
           <section className="contact__holder">
             <div className="contact__icon-hold">
-              <a  target="_blank" className="contact__link2" href="https://twitter.com/akingz18">
+              <a
+                target="_blank"
+                className="contact__link2"
+                href="https://twitter.com/akingz18"
+              >
                 <FaTwitterSquare
                   data-aos="fade-right"
                   className="contact__icon"
@@ -438,7 +444,11 @@ const Index3 = () => {
                   {" "}
                 </FaTwitterSquare>{" "}
               </a>
-              <a  target="_blank" className="contact__link2" href=" https://wa.me/08071434751  ">
+              <a
+                target="_blank"
+                className="contact__link2"
+                href=" https://wa.me/08071434751  "
+              >
                 {" "}
                 <FaWhatsappSquare
                   data-aos="fade-left"
@@ -448,7 +458,7 @@ const Index3 = () => {
                 </FaWhatsappSquare>
               </a>
               <a
-              target="_blank"
+                target="_blank"
                 className="contact__link2"
                 href=" https://www.linkedin.com/in/akintan-seyi-dumebi-17949a234/ "
               >
@@ -458,7 +468,11 @@ const Index3 = () => {
                 </FaLinkedin>
               </a>
 
-              <a className="contact__link2"  target="_blank" href="https://twitter.com/akingz18">
+              <a
+                className="contact__link2"
+                target="_blank"
+                href="https://twitter.com/akingz18"
+              >
                 {" "}
                 <FaInstagramSquare
                   data-aos="fade-down"

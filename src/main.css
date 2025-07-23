@@ -58,8 +58,8 @@ body {
   text-transform: capitalize;
   background-image: url("../src/web-port-img/16.jpg");
   background-size: cover;
-  -webkit-transition: all .2s;
-  transition: all .2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .slider__holder {
@@ -138,7 +138,7 @@ body {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .first-section__video-holder {
@@ -152,13 +152,13 @@ body {
 
 .first-section__line {
   width: 5rem;
-  height: .5rem;
+  height: 0.5rem;
   background-color: #fd57c0;
   position: absolute;
   top: 10%;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   right: 0%;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   margin-right: 9rem;
   cursor: pointer;
 }
@@ -180,12 +180,12 @@ body {
   content: "";
   background-color: #ffe838;
   width: 3rem;
-  border-radius: .5rem;
-  height: .5rem;
+  border-radius: 0.5rem;
+  height: 0.5rem;
   margin-bottom: 1rem;
   cursor: pointer;
   position: absolute;
-  top: .75rem;
+  top: 0.75rem;
   right: 20%;
 }
 
@@ -193,10 +193,10 @@ body {
   content: "";
   background-color: #ffe838;
   width: 3rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   cursor: pointer;
-  height: .5rem;
-  top: -.75rem;
+  height: 0.5rem;
+  top: -0.75rem;
   position: absolute;
   right: 40%;
 }
@@ -207,7 +207,7 @@ body {
   position: absolute;
   top: 5%;
   left: 10%;
-  opacity: .25;
+  opacity: 0.25;
   -webkit-animation: roate1 5.7s linear infinite;
           animation: roate1 5.7s linear infinite;
 }
@@ -217,7 +217,7 @@ body {
   top: 85%;
   left: 10%;
   width: 5rem;
-  opacity: .25;
+  opacity: 0.25;
   height: 5rem;
   -webkit-animation: roate1 5.7s linear infinite;
           animation: roate1 5.7s linear infinite;
@@ -229,7 +229,7 @@ body {
   right: 10%;
   width: 5rem;
   height: 5rem;
-  opacity: .25;
+  opacity: 0.25;
   -webkit-animation: roate1 5.7s linear infinite;
           animation: roate1 5.7s linear infinite;
 }
@@ -240,7 +240,7 @@ body {
   right: 10%;
   width: 5rem;
   height: 5rem;
-  opacity: .25;
+  opacity: 0.25;
   -webkit-animation: roate1 5.7s linear infinite;
           animation: roate1 5.7s linear infinite;
 }
@@ -255,7 +255,7 @@ body {
   height: 5rem;
   -webkit-animation: roate 5.7s linear infinite;
           animation: roate 5.7s linear infinite;
-  opacity: .25;
+  opacity: 0.25;
 }
 
 @-webkit-keyframes roate1 {
@@ -414,7 +414,7 @@ body {
 }
 
 .first-section__icon {
-  margin-right: .8rem;
+  margin-right: 0.8rem;
   border-radius: 50%;
   font-size: 3rem;
 }
@@ -646,13 +646,13 @@ body {
     border: 0.35rem solid #1f07f8;
   }
   30% {
-    border: .35rem solid    crimson;
+    border: 0.35rem solid crimson;
   }
   40% {
     border: 0.35rem solid #09d9f5;
   }
   50% {
-    border: .35rem solid    white;
+    border: 0.35rem solid white;
   }
   60% {
     border: 0.35rem solid #ffc400;
@@ -661,13 +661,13 @@ body {
     border: 0.35rem solid #e90da7;
   }
   80% {
-    border: .35rem solid    crimson;
+    border: 0.35rem solid crimson;
   }
   90% {
     border: 0.35rem solid #73f10b;
   }
   100% {
-    border: .35rem solid    crimson;
+    border: 0.35rem solid crimson;
   }
 }
 
@@ -682,13 +682,13 @@ body {
     border: 0.35rem solid #1f07f8;
   }
   30% {
-    border: .35rem solid    crimson;
+    border: 0.35rem solid crimson;
   }
   40% {
     border: 0.35rem solid #09d9f5;
   }
   50% {
-    border: .35rem solid    white;
+    border: 0.35rem solid white;
   }
   60% {
     border: 0.35rem solid #ffc400;
@@ -697,13 +697,13 @@ body {
     border: 0.35rem solid #e90da7;
   }
   80% {
-    border: .35rem solid    crimson;
+    border: 0.35rem solid crimson;
   }
   90% {
     border: 0.35rem solid #73f10b;
   }
   100% {
-    border: .35rem solid    crimson;
+    border: 0.35rem solid crimson;
   }
 }
 
@@ -786,10 +786,10 @@ body {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  padding: .5rem;
+  padding: 0.5rem;
   border: 1rem solid #0bceaf;
   text-transform: uppercase;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   color: white;
   font-weight: 550;
   cursor: pointer;
@@ -942,7 +942,7 @@ body {
 
 .third-section__line {
   width: 20rem;
-  height: .5rem;
+  height: 0.5rem;
   -webkit-animation: set5 20s linear infinite;
           animation: set5 20s linear infinite;
   border-radius: 1rem;
@@ -976,7 +976,7 @@ body {
   width: fit-content;
   padding: 1rem;
   height: 4rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   text-transform: capitalize;
   cursor: pointer;
   font-size: 1.6rem;
@@ -1107,7 +1107,7 @@ body {
   width: -moz-fit-content;
   width: fit-content;
   height: 3.8rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   padding: 1rem;
   font-size: 1.7rem;
   font-weight: 550;
@@ -1132,7 +1132,7 @@ body {
 .fourth-section__img {
   width: 95%;
   height: 100%;
-  border-radius: .1rem;
+  border-radius: 0.1rem;
   overflow: hidden;
   -webkit-transition: all 1s;
   transition: all 1s;
@@ -1157,7 +1157,7 @@ body {
 @media only screen and (max-width: 43.75em) {
   .fourth-section__2 {
     width: 100%;
-    padding: .5rem 5rem 5rem 6.5rem;
+    padding: 0.5rem 5rem 5rem 6.5rem;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
@@ -1166,7 +1166,7 @@ body {
 
 @media only screen and (max-width: 37.5em) {
   .fourth-section__2 {
-    padding: .5rem 3rem 3rem 5.5rem;
+    padding: 0.5rem 3rem 3rem 5.5rem;
   }
 }
 
@@ -1220,7 +1220,7 @@ body {
   text-transform: capitalize;
   margin-right: 1.5rem;
   cursor: pointer;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
   background-color: lightgray;
 }
 
@@ -1241,7 +1241,7 @@ body {
   cursor: pointer;
   font-weight: 550;
   text-transform: capitalize;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -1309,8 +1309,8 @@ body {
   font-size: 5rem;
   margin-right: 12rem;
   color: white;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .contact__icon:hover {
@@ -1349,7 +1349,7 @@ body {
   width: 50vw;
   margin-bottom: 2rem;
   height: 8rem;
-  border-radius: .4rem;
+  border-radius: 0.4rem;
   border: none;
   background-color: white;
   padding: 1rem 1rem 1rem 1rem;
@@ -1368,7 +1368,7 @@ body {
   width: 50vw;
   margin-bottom: 2rem;
   height: 4rem;
-  border-radius: .4rem;
+  border-radius: 0.4rem;
   border: none;
   background-color: white;
   padding: 1rem;
@@ -1389,7 +1389,7 @@ body {
   text-transform: capitalize;
   font-weight: 550;
   height: 4rem;
-  border-radius: .4rem;
+  border-radius: 0.4rem;
   -webkit-animation: set5 20s linear infinite;
           animation: set5 20s linear infinite;
   cursor: pointer;
@@ -1424,7 +1424,7 @@ body {
     border-top: 0.5rem solid #1f07f8;
   }
   70% {
-    border-top: .5rem solid  crimson;
+    border-top: 0.5rem solid crimson;
   }
   80% {
     border-top: 0.5rem solid #09d9f5;
@@ -1460,7 +1460,7 @@ body {
     border-top: 0.5rem solid #1f07f8;
   }
   70% {
-    border-top: .5rem solid  crimson;
+    border-top: 0.5rem solid crimson;
   }
   80% {
     border-top: 0.5rem solid #09d9f5;
