@@ -55,7 +55,7 @@ body {
   left: 0;
   color: white;
   text-transform: capitalize;
-  background-image: url("../src/web-port-img/16.jpg");
+  background-image: url("https://res.cloudinary.com/dvuq6vmiy/image/upload/v1753876495/16_i8wmha.jpg");
   background-size: cover;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -113,7 +113,7 @@ body {
   width: 100vw;
   height: 100vh;
   position: relative;
-  background-image: url("../src/web-port-img/15.jpg");
+  background-image: url("https://res.cloudinary.com/dvuq6vmiy/image/upload/v1753876556/15_oloffq.jpg");
   background-size: cover;
   font-size: 1.6rem;
   background: black;
@@ -713,8 +713,8 @@ body {
   height: 100%;
   color: white;
   text-align: center;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.354)), to(rgba(0, 0, 0, 0.5))), url("../src/web-port-img/warrior-kneeling-wallpaper-2560x2048_33.jpg");
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.354), rgba(0, 0, 0, 0.5)), url("../src/web-port-img/warrior-kneeling-wallpaper-2560x2048_33.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.354)), to(rgba(0, 0, 0, 0.5))), url("https://res.cloudinary.com/dvuq6vmiy/image/upload/v1753876282/warrior-kneeling-wallpaper-2560x2048_33_fiswo7.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.354), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dvuq6vmiy/image/upload/v1753876282/warrior-kneeling-wallpaper-2560x2048_33_fiswo7.jpg");
   background-position: center;
   background-size: cover;
 }

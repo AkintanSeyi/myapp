@@ -32,7 +32,7 @@ const Index3 = () => {
   const J = useRef(null);
   const JJ = useRef(null);
   const [a, setA] = useState(
-    "./web-port-img/21180475_tiger-running-to-camera_by_3danimals_preview.mp4"
+    "https://res.cloudinary.com/dvuq6vmiy/video/upload/v1753876749/21180475_tiger-running-to-camera_by_3danimals_preview_tjccxt.mp4"
   );
   const [b, setB] = useState("html");
   const [c, setC] = useState("css");
@@ -67,7 +67,7 @@ const Index3 = () => {
 
   useEffect(() => {
     setTimeout(() => {
-      setA("./web-port-img/man.mp4");
+      setA("https://res.cloudinary.com/dvuq6vmiy/video/upload/v1753876889/man_xz4qbk.mp4");
       C.current.style.display = "block";
       A.current.style.background = "rgba(0, 0, 0, 0.8)";
       A.current.style.animation = "none";
