@@ -1,8 +1,8 @@
 const people4 = [
  {
     company: "cleva",
-    job: "Full-stack Developer",
-    date: "august 2024 - till date",
+    job: "Full-Stack Developer",
+    date: "august 2024 - July 2025",
     location: "Nigeria - Remote - Full-time",
     field: [
       " Build and maintain both frontend and backend systems for the Cleva app, enabling features like USD accounts, money transfers, and currency conversion.",
@@ -13,24 +13,12 @@ const people4 = [
     ],
   },
 
-  {
-    company: "chowdeck",
-    job: "Frontend Developer",
-    date: "january 2024 - august 2024",
-    location: "Nigeria - Remote - Internship",
-    field: [
-      " Develop responsive UIs for web and mobile using React or React Native.",
-      "Improve app speed and performance for a smooth user experience.",
-       "Implement real-time features like order tracking and delivery updates.",
-      "Work with designers and backend engineers to integrate APIs and UI designs.",
-      "Fix bugs and handle edge cases to ensure a reliable, user-friendly app.",
-    ],
-  },
 
-  ,
+
+  
   {
     company: "ULTAINFINITY",
-    job: "Full Stack Developer",
+    job: "Full-Stack Developer",
     date: "December 2022 - February 2024",
     location: "United Kingdom - Remote - Full-time",
     field: [
@@ -41,16 +29,15 @@ const people4 = [
     ],
   },
   {
-    company: "SynOption",
-    job: "Software Developer",
+    company: "Fiverr",
+    job: "Full-Stack Developer",
     date: "March 2022 - January 2023",
-    location: "Singapore - Remote - Full-time",
+    location: "Remote - Freelance",
     field: [
-      "Designed and implemented web applications along 3rd party software integrations as a web team liaison for all inter-departmental and customer facing projects",
-      "Enhanced user experience and accomplish webpage objectives by creating site structures , navigation, page optimization and graphic integration.",
-      "Adopted material UI , Styled Component and Scss for styling ",
-      "Worked hand in hand with a large team of frontend developers and Developed the state management system using ReduX",
-      "Connected some applications to their respective backend services using WebSocket and REST API",
+      "Designed and implemented web applications along 3rd party software integrations for clients",
+      "Enhanced businesses for client by building User friendly interfaces",
+        "Adopted material UI , Styled Component and Scss for styling ",
+     "Connected some applications to their respective backend services using WebSocket and REST API"
     ],
   },
 
